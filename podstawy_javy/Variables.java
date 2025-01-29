@@ -1,4 +1,4 @@
-package src;
+package podstawy_javy;
 
 public class Variables {
     public static void main(String[] args) {
