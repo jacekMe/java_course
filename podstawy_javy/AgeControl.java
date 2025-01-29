@@ -1,3 +1,5 @@
+package podstawy_javy;
+
 public class AgeControl {
     public static void main(String[] args) {
         int age = 18;
