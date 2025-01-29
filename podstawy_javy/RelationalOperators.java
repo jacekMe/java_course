@@ -1,4 +1,4 @@
-package src;
+package podstawy_javy;
 
 public class RelationalOperators {
     public static void main(String[] args) {
