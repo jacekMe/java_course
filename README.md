@@ -3,8 +3,7 @@
 ## O repozytorium
 
 Witaj w moim repozytorium, które powstało jako część mojej nauki programowania w języku Java. 
-Realizuję kurs **[Java od Podstaw do Eksperta - twórz własne aplikacje]**
-**(https://www.udemy.com/course/java-od-podstaw-do-eksperta-tworz-wasne-aplikacje/?couponCode=ST16MT28125BROW)** autorstwa Arkadiusza Włodarczyka. 
+Realizuję kurs **[Java od Podstaw do Eksperta - twórz własne aplikacje](https://www.udemy.com/course/java-od-podstaw-do-eksperta-tworz-wasne-aplikacje/?couponCode=ST16MT28125BROW)** autorstwa Arkadiusza Włodarczyka. 
 
 Repozytorium zawiera projekty, ćwiczenia i aplikacje, które stworzyłem podczas kursu, aby ugruntować moją wiedzę oraz zbudować portfolio.
 Moim celem jest nie tylko nauczenie się Javy, ale także podzielenie się efektami mojej pracy z innymi.
