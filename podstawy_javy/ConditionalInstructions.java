@@ -11,17 +11,4 @@ public class ConditionalInstructions {
         else
             System.out.println("A jest równe B.");
     }
-
-    /*
-        ture false
-
-        INSTRUKCJE WARUNKOWE
-
-        if (WYRAŻENIE)
-            instrukcja;
-        else
-            instrukcja;
-
-        jeśli instrukcji jest więcej niż jedna to wtedy zapisujemy w {instrukcja1, instrukcja2}
-     */
 }
