@@ -374,9 +374,9 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `for` z `break`**
 
-`for (int i = 0; i < 10; i++)`
-`{`
-`   if (i == 3)`
-`       break;`
-`   System.out.println(i);`
-`}`
+`for (int i = 0; i < 10; i++)`  
+`{`  
+`   if (i == 3)`  
+`       break;`  
+`   System.out.println(i);`  
+`}`  
