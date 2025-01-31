@@ -19,16 +19,16 @@ JVM jesteśmy w stanie zrobić jednym poleceniem/przyciskiem
 - gdy nad programem pracuje więcej niż jedna osoba nie będzie musiała się domyślać co autor w danym momencie miał na myśli
 
 **Rodzaje komentarzy**
-- wielolinjkowy
+- wielolinjkowy  
     `/*`  
     `*/`  
-- jednolinijkowy
+- jednolinijkowy  
     `//`
 
 ## PODSTAWY, KTÓRE WARTO ZNAĆ
 
 - warto wstawiać białe znaki, czyli tzw. wcięcia, tabulatory, entery - dla lepszej przejrzystości kodu i ułatwienia odczytywania go
-- każdy rozkaz powinien się kończyć średnikiem ; 
+- każdy rozkaz powinien się kończyć średnikiem `;` 
 - klamry { } mówią jaki jest zakres działania
 - class - klasa - pojemnik do przechowywania informacji oraz funkcji, które chcemy opisać znajdują się w { } klamrach
 - każdy program będzie rozpoczynał się od wywołania instrukcji, wewnątrz funkcji main
@@ -94,11 +94,11 @@ to znaki służące do operowania na zmiennych
 - `++`    -> inkrementacja - powiększa o 1
 - `--`    -> dekrementacja - zmniejsza o 1
 
-**post** czyli wykona dodawanie/odejmowanie, gdy wypisze na ekran wartość, która znajdowała się pod daną zmienną
+***post*** czyli wykona dodawanie/odejmowanie, gdy wypisze na ekran wartość, która znajdowała się pod daną zmienną
 - `x++`   -> post inkrementacja
 - `x--`   -> post dekrementacja
 
-**pre** najpierw powiększy/zmniejszy podaną zmienną, następnie wypisze jej wartość
+***pre*** najpierw powiększy/zmniejszy podaną zmienną, następnie wypisze jej wartość
 - `++x`   -> pre inkrementacja
 - `--x`   -> pre dekrementacja
 
@@ -117,7 +117,7 @@ inaczej operatory porównania - to tzw. operator do warunkowania, służy do spr
 
 ## OPERATORY LOGICZNE
 
-operują na logicznych wartościach, czyli **true** i **false**
+operują na logicznych wartościach, czyli **`true`** i **`false`**
 
 ### NEGACJA - `!`
 
@@ -185,7 +185,7 @@ else
     - double
     - String
 
-**case** - przypadek
+**case** - przypadek  
 **break** - całkowite wyjście z przełącznika
 
 ## WYRAŻENIA WARUNKOWE
@@ -202,20 +202,20 @@ else
 
 `int[] tab;`
 
-`[]`        - informują, że to tablica
-`tab`       - nazwa tablicy
+`[]`        - informują, że to tablica  
+`tab`       - nazwa tablicy  
 
-`tab = new tab[5];`
+`tab = new tab[5];`  
 
-`tab`       - odwołanie do tablicy
-`new`       - rezerwacja miejsca w tablicy za pomocą słowa **new**
-`int[5]`    - wartość ile mamy zarezerwowanego miejsca dla tego typu
+`tab`       - odwołanie do tablicy  
+`new`       - rezerwacja miejsca w tablicy za pomocą słowa **new**  
+`int[5]`    - wartość ile mamy zarezerwowanego miejsca dla tego typu  
 
         ---------------------------------------
         | tab[0] tab [1] tab[2] tab[3] tab[4] |
         ---------------------------------------
 
-*aby odwołać się do miejsc w tablicy korzystamy z indeksów*
+*aby odwołać się do miejsc w tablicy korzystamy z indeksów*  
 *indeksy numerowane są od 0*
 
 **Odwołanie się do tablicy**
@@ -230,20 +230,20 @@ else
 
 ## TABLICA WIELOWYMIAROWA
 
-**Tablica wielowymiarowa** składa się z wierszy i kolumn. Tworzymy ją za pomocą dwóch `[][]` klamer kwadratowych.
+**Tablica wielowymiarowa** składa się z wierszy i kolumn. Tworzymy ją za pomocą dwóch `[][]` klamer kwadratowych.  
 Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Sposób tworzenia tablicy**
 
 `int[][] tab = new int[4][3];`
 
-`int[][] tab1 =
-        {
-            {8, 12, 18},
-            {9, 13, 19},
-            {26, 36, 48},
-            {27, 37, 49}
-        };`
+`int[][] tab1 =  
+        {  
+            {8, 12, 18},  
+            {9, 13, 19},  
+            {26, 36, 48},  
+            {27, 37, 49}  
+        };`  
 
         ----------------------------------
         |  [0][0]  |  [0][1]  |  [0][2]  |
