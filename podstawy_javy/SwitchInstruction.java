@@ -15,13 +15,4 @@ public class SwitchInstruction {
                 System.out.println("a nie jest równe ani 50 ani 100, jest równe " + a);
         }
     }
-
-    /*
-            Switch (przełącznik)
-
-            nie możemy porównywać:
-                - double
-                - String
-
-     */
 }
