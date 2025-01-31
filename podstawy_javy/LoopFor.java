@@ -16,17 +16,17 @@ public class LoopFor {
                         "Il Lombardia"
                 };
 
-        // for(INICJALIZACJA ZMIENNYCH; WARUNEK PĘTLI; CO MA ZROBIĆ PO WYKONANIU WSZYSTKICH INSTR. W PĘTLI)
-//        for(int i = 0; i < cyclingRaces.length; i++)
-//        {
-//            System.out.println(cyclingRaces[i]);
-//        }
+         // for(INICJALIZACJA ZMIENNYCH; WARUNEK PĘTLI; CO MA ZROBIĆ PO WYKONANIU WSZYSTKICH INSTR. W PĘTLI)
+        for(int i = 0; i < cyclingRaces.length; i++)
+        {
+            System.out.println("Wyścig nr " + (i + 1) + " to: " + cyclingRaces[i]);
+        }
 
         // ENHANCED FOR
 
-        for(String nameRace: cyclingRaces)
-        {
-            System.out.println(nameRace);
-        }
+//        for(String nameRace: cyclingRaces)
+//        {
+//            System.out.println(nameRace);
+//        }
     }
 }
