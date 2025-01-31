@@ -30,7 +30,7 @@ JVM jesteśmy w stanie zrobić jednym poleceniem/przyciskiem
 - warto wstawiać białe znaki, czyli tzw. wcięcia, tabulatory, entery - dla lepszej przejrzystości kodu i ułatwienia odczytywania go
 - każdy rozkaz powinien się kończyć średnikiem `;` 
 - klamry { } mówią jaki jest zakres działania
-- class - klasa - pojemnik do przechowywania informacji oraz funkcji, które chcemy opisać znajdują się w { } klamrach
+- class - klasa - pojemnik do przechowywania informacji oraz funkcji, które chcemy opisać znajdują się w `{ }` klamrach
 - każdy program będzie rozpoczynał się od wywołania instrukcji, wewnątrz funkcji main
 
 ## ZMIENNE
@@ -41,23 +41,23 @@ JVM jesteśmy w stanie zrobić jednym poleceniem/przyciskiem
 
 **Rodzaje zmiennych**
 
-- TYP CAŁKOWITY
-    - **byte**  - do 8 bitów
+- **TYP CAŁKOWITY**
+    - **`byte`**  - do 8 bitów
         - od -128 do 127
-    - **short** - do 16 bitów
+    - **`short`** - do 16 bitów
         - od -32 768 do 32 767
-    - **int**   - do 32 bitów
+    - **`int`**   - do 32 bitów
         - od -2^31 do 2^31 -1
-    - **long**  - do 64 bitów
+    - **`long`**  - do 64 bitów
         - od -2^63 do 2^63 -1
 
-- TYPY ZNAKOWE
-    - **char**      - 2 bajtowy (tylko jeden znak, piszemy w apostrofach)
-    - **String**    - ciąg znaków (piszemy w cudzysłowach)
+- **TYPY ZNAKOWE**
+    - **`char`**      - 2 bajtowy (tylko jeden znak, piszemy w apostrofach)
+    - **`String`**    - ciąg znaków (piszemy w cudzysłowach)
 
-- TYPY ZMIENNOPRZECINKOWE
-    - **float**   - 32 bity   - 1,4 * 10^-45 do 3,4 * 10^138
-    - **double**  - 64 bity   - od 4,9 * 10^-324 do 1,8 * 10^308
+- **TYPY ZMIENNOPRZECINKOWE**
+    - **`float`**   - 32 bity   - 1,4 * 10^-45 do 3,4 * 10^138
+    - **`double`**  - 64 bity   - od 4,9 * 10^-324 do 1,8 * 10^308
 
 **Jak poprawnie nazywać zmienne**
 
@@ -70,7 +70,7 @@ JVM jesteśmy w stanie zrobić jednym poleceniem/przyciskiem
 **STAŁE** - to zmienne finalne, nie jesteśmy w stanie zmienić podanej w nich wartości
 
 **NIE WOLNO!!!**
-- używać jako etykiety keywordów, czyli słów, kluczy które są już zarezerwowane np. public
+- używać jako etykiety keywords, czyli słów, kluczy które są już zarezerwowane np. **public**
 - zaczynać nazwy zmiennej od liczb
 - korzystać ze spacji w nazwie zmiennej
 
