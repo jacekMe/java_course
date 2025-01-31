@@ -13,34 +13,4 @@ public class LogicalOperators {
         System.out.println(a == b || c == b);
         System.out.println(a > b || c > a);
     }
-
-    /*
-    OPERATORY LOGICZNE
-
-        true
-        false
-
-        ! - NEGACJA
-
-        !(true)     -> false
-        !(false)    -> true
-
-        && - KONIUNKCJA - "i"
-
-        true && true    -> true
-        true && false   -> false
-        false && true   -> false
-        false && false  -> false
-
-        KONIUNKCJA JEST PRAWDZIWA WTEDY I TYLKO WTEDY GDY OBA WYRAŻENIA SĄ PRAWDZIWE
-
-        || - ALTERNATYWA - "lub"
-
-        true || true    -> true
-        true || false   -> true
-        false || true   -> true
-        false || false  -> false
-
-        ALTERNATYWA JEST FAŁSZYWA TYLKO GDY OBA WYRAŻENIA SĄ FAŁSZYWE
-     */
 }
