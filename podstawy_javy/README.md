@@ -151,8 +151,8 @@ operują na logicznych wartościach, czyli **true** i **false**
 
 operują na bitach, podstawowych jednostkach informacji przechowywanych w komputerze za pomocą impulsów elektrycznych (01010)
 
-**0 - false**
-**1 - true**
+`**0 - false**`
+`**1 - true**`
 
 - `&`       -> iloczyn bitowy
 - `|`       -> suma bitowa
@@ -169,14 +169,14 @@ operują na bitach, podstawowych jednostkach informacji przechowywanych w komput
 
 **Schemat tworzenia instrukcji warunkowych:**
 
-if (WYRAŻENIE)
+`if (WYRAŻENIE)
    instrukcja;
 else if (WYRAŻENIE)
         instrukcja;
 else 
-    instrukcja;
+    instrukcja;`
 
-*jeśli instrukcji jest więcej niż jedna to wtedy zapisujemy w **{}** `{instrukcja1, instrukcja2}`*
+*jeśli instrukcji jest więcej niż jedna to wtedy zapisujemy w **{ }** `{instrukcja1, instrukcja2}`*
 
 ## INSTRUKCJA SWITCH
 
@@ -216,9 +216,9 @@ else
 `new`       - rezerwacja miejsca w tablicy za pomocą słowa **new**
 `int[5]`    - wartość ile mamy zarezerwowanego miejsca dla tego typu
 
------------------------------------
-tab[0] tab [1] tab[2] tab[3] tab[4]
------------------------------------
+        ---------------------------------------
+        | tab[0] tab [1] tab[2] tab[3] tab[4] |
+        ---------------------------------------
 
 *aby odwołać się do miejsc w tablicy korzystamy z indeksów*
 *indeksy numerowane są od 0*
@@ -264,4 +264,120 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 `System.out.println(tab2[0][0]);`
 
-## 
+## PĘTLE
+
+**Pętla** służy do zapętlania, czyli powtarzania instrukcji nieprzerwanie aż do momentu kiedy warunek będzie spełniony. 
+
+**Z pętli korzystamy, gdy:**
+
+- mamy dużą ilość danych
+- powtarzamy daną czynność wielokrotnie
+- instrukcja się powtarza
+
+**Rodzaje pętli**
+- while
+- do while
+- for
+- enhanced for
+
+### WHILE
+
+- aby pętla zadziałała jej warunek musi być **TRUE** i musi się kończy w pewnym momencie, aby pętla nie wykonywała się w nieskończoność.
+
+**Przykład pętli `while`**
+
+`int i = 0;
+while(i < 7) // warunek
+{
+    System.out.println(i); // instrukcja
+    i++; // operator dzięki któremu w pewnym momencie pętla zakończy swoje działanie
+}`
+
+### DO WHILE
+
+- stosujemy ją, gdy nie interesuje nas czy warunek na samym starcie musi zostać spełniony
+
+**Przykład pętli `do while`**
+
+`i = 0;
+do
+{
+    System.out.println(i);
+    i++;
+}while(i < 7);`
+
+
+### FOR
+
+- typ pętli, który sprawdza warunek na samym starcie
+- tworzymy ją w jednej linii, odzielając od siebie średnikami operacje
+
+**Schemat tworzenia pętli `for`**
+
+`for (inicjalizacja zmiennych; warunek pętli; co ma się stać po wykonaniu instrukcji)`
+
+**Przykład pętli `for`**
+
+`for(int i = 0; i < 7; i++)
+{
+    System.out.println(i);
+}`
+
+
+### ENHANCED FOR
+
+- to ulepszona pętla `for`
+- możemy jej używać do tablic
+- do stworzenia tej pętli potrzebujemy określić typ tablicy, nazwę zmiennej oraz nazwę tablicy do której się odwołujemy
+
+**Schemat tworzenia pętli enhanced `for`**
+
+`for(<typ tablicy> <nazwa zmiennej, która będzie przechowywać wartości przy każdym przejściu pętli>: <nazwa tablicy po której chcemy przejść>)`
+
+**Przykład petli enhaced `for`**
+
+`for(String nameRace: cyclingRaces)
+{
+    System.out.println(nameRace);
+}`
+
+### PĘTLA W PĘTLI
+
+- możemy zagnieżdżać jedną pętle w drugiej
+
+**Przykład pętli w pętli `for`**
+
+`for (int j = 1; j <= 10; j++)
+{
+    for (int i = 1; i <= 10; i++) {
+
+        System.out.print(i * j + " ");
+    }
+    System.out.println();
+}`
+
+## BREAK & CONTINUE
+
+**Instrukcja `continue`** przerywa tylko daną iterację w pętli, nie przerywając całej pętli
+
+**Przykład pętli `for` z `continue`**
+
+`for (int i = 0; i < 60; i++)
+{
+    if (i % 2 != 0)
+       continue;
+
+    System.out.println(i);
+}`
+
+**Instrukcja `break`** kończy całkowicie działanie pętli. Stosujemy ją, gdy wiemy, że nie chcemy wykonywać już żadnej iteracji
+
+**Przykład pętli `for` z `break`**
+
+`for (int i = 0; i < 10; i++)
+{
+    if (i == 3)
+       break;
+
+    System.out.println(i);
+}`
