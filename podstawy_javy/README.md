@@ -9,40 +9,35 @@ podczas nauki korzystam z IntelliJ IDEA od jetbrains.
 **Zalety IDE**
 - cały proces **kompilacji** przetworzenia kodu napisanego przez nas w kod pośredni i uruchomienie go przez
 JVM jesteśmy w stanie zrobić jednym poleceniem/przyciskiem
-
 - edytor wykrywa na bieżąco ewentualne błędy, zaznacza linię w której wykrył błąd
-
 - podpowiada nazwy klas, metod i zmiennych
 
 ## KOMENTARZE
 
-służą do dodanie dodatkowej informacji o kodzie. Pozwalają zaoszczędzić dużo czasu, np.:
+- służą do dodania dodatkowej informacji o kodzie. Pozwalają zaoszczędzić dużo czasu, np.:
 - gdy po pewnym czasie wracamy do naszego kodu - nie musimy zastanawiać się w jaki sposób będzie działał nasz kod
 - gdy nad programem pracuje więcej niż jedna osoba nie będzie musiała się domyślać co autor w danym momencie miał na myśli
 
 **Rodzaje komentarzy**
 - wielolinjkowy
-    `/*
-        */`
+    `/*`  
+    `*/`  
 - jednolinijkowy
     `//`
 
 ## PODSTAWY, KTÓRE WARTO ZNAĆ
 
 - warto wstawiać białe znaki, czyli tzw. wcięcia, tabulatory, entery - dla lepszej przejrzystości kodu i ułatwienia odczytywania go
-
 - każdy rozkaz powinien się kończyć średnikiem ; 
-
 - klamry { } mówią jaki jest zakres działania
-
 - class - klasa - pojemnik do przechowywania informacji oraz funkcji, które chcemy opisać znajdują się w { } klamrach
-
 - każdy program będzie rozpoczynał się od wywołania instrukcji, wewnątrz funkcji main
 
 ## ZMIENNE
 
-**Zmienna** tj. pojemnik do którego możemy zapisać daną wartość. Każdy z tych pojemników może przechowywać różnego rodzaju elementy, np. liczby, teskt.
-Zmienne przechowywane są w pamięci RAM.
+- pojemnik do którego możemy zapisać daną wartość
+- każdy z tych pojemników może przechowywać różnego rodzaju elementy, np. liczby, teskt
+- zmienne przechowywane są w pamięci RAM
 
 **Rodzaje zmiennych**
 
@@ -151,9 +146,8 @@ operują na logicznych wartościach, czyli **true** i **false**
 
 operują na bitach, podstawowych jednostkach informacji przechowywanych w komputerze za pomocą impulsów elektrycznych (01010)
 
-**`0 - false`**
-
-**`1 - true`**
+**`0 - false`**  
+**`1 - true`**  
 
 - `&`       -> iloczyn bitowy
 - `|`       -> suma bitowa
@@ -287,12 +281,12 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `while`**
 
-`int i = 0;`
-`while(i < 7) // warunek`
-`{`
-`   System.out.println(i); // instrukcja`
-`   i++; // operator dzięki któremu w pewnym momencie pętla zakończy swoje działanie`
-`}`
+`int i = 0;`  
+`while(i < 7) // warunek`  
+`{`  
+`   System.out.println(i); // instrukcja`  
+`   i++; // operator dzięki któremu w pewnym momencie pętla zakończy swoje działanie`  
+`}`  
 
 ### DO WHILE
 
@@ -300,12 +294,12 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `do while`**
 
-`i = 0;`
-`do`
-`{`
-`   System.out.println(i);`
-`   i++;`
-`}while(i < 7);`
+`i = 0;`  
+`do`  
+`{`  
+`   System.out.println(i);`  
+`   i++;`  
+`}while(i < 7);`  
 
 
 ### FOR
@@ -319,10 +313,10 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `for`**
 
-`for(int i = 0; i < 7; i++)`
-`{`
-`   System.out.println(i);`
-`}`
+`for(int i = 0; i < 7; i++)`  
+`{`  
+`   System.out.println(i);`  
+`}`  
 
 
 ### ENHANCED FOR
@@ -337,10 +331,10 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład petli enhaced `for`**
 
-`for(String nameRace: cyclingRaces)`
-`{`
-`   System.out.println(nameRace);`
-`}`
+`for(String nameRace: cyclingRaces)`  
+`{`  
+`   System.out.println(nameRace);`  
+`}`  
 
 ### PĘTLA W PĘTLI
 
@@ -348,14 +342,14 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli w pętli `for`**
 
-`for (int j = 1; j <= 10; j++)`
-`{`
-`   for (int i = 1; i <= 10; i++)` 
-`   {`
-`       System.out.print(i * j + " ");`
-`   }`
-`   System.out.println();`
-`}`
+`for (int j = 1; j <= 10; j++)`  
+`{`  
+`   for (int i = 1; i <= 10; i++)`  
+`   {`  
+`       System.out.print(i * j + " ");`  
+`   }`  
+`   System.out.println();`  
+`}`  
 
 ## BREAK & CONTINUE
 
@@ -363,12 +357,12 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `for` z `continue`**
 
-`for (int i = 0; i < 60; i++)`
-`{`
-`    if (i % 2 != 0)`
-`       continue;`
-`   System.out.println(i);`
-`}`
+`for (int i = 0; i < 60; i++)`  
+`{`  
+`    if (i % 2 != 0)`  
+`       continue;`  
+`   System.out.println(i);`  
+`}`  
 
 **Instrukcja `break`** kończy całkowicie działanie pętli. Stosujemy ją, gdy wiemy, że nie chcemy wykonywać już żadnej iteracji
 
