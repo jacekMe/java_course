@@ -12,16 +12,4 @@ public class RelationalOperators {
         System.out.println(a >= b);
         System.out.println(a <= b);
     }
-
-    /*
-    OPERATORY RELACYJNE (PORÓWNANIA)
-
-        ==  -> porównanie
-        !=  -> porównanie czy są różne od siebie
-        >   -> większe od
-        <   -> mniejsze od
-        >=  -> większe bądź równe
-        <=  -> mniejsze bądź równe
-
-     */
 }
