@@ -10,16 +10,4 @@ public class BitOperators {
         System.out.println(10<<2);
         System.out.println(~10);
     }
-
-    /*
-        0 - false, 1 - true
-        OPERATORY BITOWE
-
-            &       -> iloczyn bitowy
-            |       -> suma bitowa
-            ^       -> XOR eXclusive OR
-            x << 1  -> przesunięcie w lewo o 1
-            x >> 2  -> przesunięcie w prawo o 2
-            ~       -> negacja bitowa
-     */
 }
