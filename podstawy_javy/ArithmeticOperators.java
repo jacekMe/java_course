@@ -27,33 +27,4 @@ public class ArithmeticOperators {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
-
-    /*
-
-    OPERATORY - to znaki służące do operowania na zmiennych
-
-        OPERATORY ARYTMETYCZNE
-
-            + -> dodawanie liczb oraz łączenie string
-            - -> odejmowanie
-            * -> mnożenie
-            / -> dzielenie
-            % -> reszta z dzielenia (modulo)
-
-            = -> przypisanie wartości do zmiennej
-            += -> skrótowe dodawanie
-            -= -> skrótowe odejmowanie
-            *= -> skrótowe mnożenie
-            /= -> skrótowe dzielenie
-            %=
-
-            ++ -> inkrementacja - powiększa o 1
-            -- -> dekrementacja - zmniejsza o 1
-
-            x++ -> post inkrementacja
-            x-- -> post dekrementacja
-
-            ++x -> pre inkrementacja
-            --x -> pre dekrementacja
-     */
 }
