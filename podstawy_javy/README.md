@@ -118,13 +118,13 @@ inaczej operatory porównania - to tzw. operator do warunkowania, służy do spr
 - `>=`  -> większe bądź równe
 - `<=`  -> mniejsze bądź równe
 
-- **boolean** czyli wartość, która przechowuje tylk **TRUE** lub **FALSE**
+- **`boolean`** czyli wartość, która przechowuje tylk **`TRUE`** lub **`FALSE`**
 
 ## OPERATORY LOGICZNE
 
 operują na logicznych wartościach, czyli **true** i **false**
 
-### `!` - NEGACJA
+### NEGACJA - `!`
 
 - `!(true)`     -> false
 - `!(false)`    -> true
@@ -151,8 +151,9 @@ operują na logicznych wartościach, czyli **true** i **false**
 
 operują na bitach, podstawowych jednostkach informacji przechowywanych w komputerze za pomocą impulsów elektrycznych (01010)
 
-`**0 - false**`
-`**1 - true**`
+**`0 - false`**
+
+**`1 - true`**
 
 - `&`       -> iloczyn bitowy
 - `|`       -> suma bitowa
@@ -286,12 +287,12 @@ Pierwszy argument to **ilość wierszy**, drugi to **ilość kolumn**
 
 **Przykład pętli `while`**
 
-`int i = 0;
-while(i < 7) // warunek
-{
-    System.out.println(i); // instrukcja
-    i++; // operator dzięki któremu w pewnym momencie pętla zakończy swoje działanie
-}`
+`int i = 0;`
+`while(i < 7) // warunek`
+`{`
+`   System.out.println(i); // instrukcja`
+`   i++; // operator dzięki któremu w pewnym momencie pętla zakończy swoje działanie`
+`}`
 
 ### DO WHILE
 
@@ -299,12 +300,12 @@ while(i < 7) // warunek
 
 **Przykład pętli `do while`**
 
-`i = 0;
-do
-{
-    System.out.println(i);
-    i++;
-}while(i < 7);`
+`i = 0;`
+`do`
+`{`
+`   System.out.println(i);`
+`   i++;`
+`}while(i < 7);`
 
 
 ### FOR
@@ -318,10 +319,10 @@ do
 
 **Przykład pętli `for`**
 
-`for(int i = 0; i < 7; i++)
-{
-    System.out.println(i);
-}`
+`for(int i = 0; i < 7; i++)`
+`{`
+`   System.out.println(i);`
+`}`
 
 
 ### ENHANCED FOR
@@ -336,10 +337,10 @@ do
 
 **Przykład petli enhaced `for`**
 
-`for(String nameRace: cyclingRaces)
-{
-    System.out.println(nameRace);
-}`
+`for(String nameRace: cyclingRaces)`
+`{`
+`   System.out.println(nameRace);`
+`}`
 
 ### PĘTLA W PĘTLI
 
@@ -347,14 +348,14 @@ do
 
 **Przykład pętli w pętli `for`**
 
-`for (int j = 1; j <= 10; j++)
-{
-    for (int i = 1; i <= 10; i++) {
-
-        System.out.print(i * j + " ");
-    }
-    System.out.println();
-}`
+`for (int j = 1; j <= 10; j++)`
+`{`
+`   for (int i = 1; i <= 10; i++)` 
+`   {`
+`       System.out.print(i * j + " ");`
+`   }`
+`   System.out.println();`
+`}`
 
 ## BREAK & CONTINUE
 
@@ -362,22 +363,20 @@ do
 
 **Przykład pętli `for` z `continue`**
 
-`for (int i = 0; i < 60; i++)
-{
-    if (i % 2 != 0)
-       continue;
-
-    System.out.println(i);
-}`
+`for (int i = 0; i < 60; i++)`
+`{`
+`    if (i % 2 != 0)`
+`       continue;`
+`   System.out.println(i);`
+`}`
 
 **Instrukcja `break`** kończy całkowicie działanie pętli. Stosujemy ją, gdy wiemy, że nie chcemy wykonywać już żadnej iteracji
 
 **Przykład pętli `for` z `break`**
 
-`for (int i = 0; i < 10; i++)
-{
-    if (i == 3)
-       break;
-
-    System.out.println(i);
-}`
+`for (int i = 0; i < 10; i++)`
+`{`
+`   if (i == 3)`
+`       break;`
+`   System.out.println(i);`
+`}`
