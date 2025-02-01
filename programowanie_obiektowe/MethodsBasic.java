@@ -11,8 +11,10 @@ public class MethodsBasic {
 
 
         int result = a.add(18, 8);
+        double result1 = a.add(18.8, 12.2);
 
         System.out.println(result);
+        System.out.println(result1);
 
         double result2 = a.divide(18, 0);
         System.out.println(result2);
@@ -29,6 +31,11 @@ class Test
     }
 
     int add(int a, int b)
+    {
+        return a + b;
+    }
+    // przeciązanie metody, kiedy jedną metodę mamy dla różnych typów zmiennych
+    double add(double a, double b)
     {
         return a + b;
     }
